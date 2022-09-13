@@ -94,15 +94,20 @@ img {
 }
 
 .contacts {
+    justify-content: end;
     color: #757575;
-    margin-left: auto;
     display: flex;
 }
 
 .nav-list-flex {
+
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ececec;
+}
+
+.nav-list-flex :last-child {
+    margin-right: 0;
 }
 
 .nav-list {
@@ -129,6 +134,7 @@ img {
 
 .info-list-contacts .item + .item {
     margin-left: 50px;
+    display: flex;
 }
 
 .nav-list a:hover,
@@ -151,7 +157,7 @@ img {
 
 .info-list-contacts a:hover,
 .info-list-contacts a:focus {
-  color: var(--link-color);
+    color: var(--link-color);
 }
 .nav-list-flex .link.current {
     color: var(--link-color);
@@ -381,4 +387,33 @@ footer {
     background: var(--main-light-color);
     border: 1px solid #eeeeee;
     box-sizing: border-box;
+}
+.projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 4px;
+    letter-spacing: 0.06em;
+    color: var(--main-font-color);
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.projects .item {
+    width: 370px;
+    display: block;
+    margin: 15px;
+}
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
+}
+  
+.project-card {
+    padding: 20px 24px;
 }
