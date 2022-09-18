@@ -62,7 +62,12 @@ img {
 }
 
 header {
-    border-bottom: 32px
+    border-bottom: 1px solid #ECECEC;
+}
+
+header a {
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .container {
     width: 1200px;
@@ -110,7 +115,7 @@ header {
 .nav-list-flex {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ececec;
+    /*border-bottom: 1px solid #ececec;*/
 }
 
 .nav-list-flex :last-child {
@@ -342,12 +347,10 @@ footer {
 }
 .footer-list-item {
     display: block;
-    margin-top: 9px;
-    margin-bottom: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-light-color);
 }  
