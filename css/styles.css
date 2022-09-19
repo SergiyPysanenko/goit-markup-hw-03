@@ -356,7 +356,6 @@ footer {
 }  
 .footer-list {
     display: block;
-    margin-top: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -364,7 +363,9 @@ footer {
     letter-spacing: 0.03em;
     color: var(--third-font-color);
   }
-
+.footer-list-li {
+    margin-top: 9px;
+}
 
 /*portfolio*/
 
